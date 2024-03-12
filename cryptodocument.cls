@@ -3,6 +3,11 @@
 
 \RequirePackage{xkeyval}
 
+\RequirePackage{amsmath, amssymb, amsfonts}
+\RequirePackage{stmaryrd, mathtools}
+\RequirePackage{cryptocode}
+\RequirePackage{booktabs, multirow}
+
 \def\myclasstype{article} % default class if invalid options are chosen
 
 \DeclareOptionX{eprint}{%
