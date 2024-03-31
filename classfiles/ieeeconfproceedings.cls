@@ -69,3 +69,10 @@
 
 % Bibliography settings
 \bibliographystyle{IEEEtran}
+
+% AMS Theorem Environments
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{corollary}{Corollary}[theorem]
+\newtheorem{lemma}[theorem]{Lemma} 
+\newtheorem{definition}{Definition}[section]
