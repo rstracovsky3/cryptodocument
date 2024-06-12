@@ -1,3 +1,8 @@
+% Silences warnings where this file is called in a different directory structure!
+% Must go before ProvidesClass is called.
+\usepackage{silence}
+\WarningFilter{latex}{You have requested document class}
+
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{cryptodocument}[Modular document class for common crypto submission and preprint formats.]
 
